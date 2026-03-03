@@ -8,7 +8,6 @@ Official brand assets for **Digital Humanities Craft**.
 svg/    — Vector source files (SVG)
 png/    — Raster exports (PNG)
 pdf/    — Print-ready files (PDF)
-files/  — Font specimen files
 ```
 
 ## Assets
@@ -17,14 +16,13 @@ files/  — Font specimen files
 |-------|---------|-------------|
 | `dhcraft_logo_invert` | SVG, PNG, PDF | Primary logo (inverted) |
 | `dhcraft_logo_invert_white` | SVG, PNG | White variant for dark backgrounds |
-| `dhcraft_logo_invert+text` | SVG | Logo with company name |
+| `dhcraft_logo_invert+text` | SVG | Logo with company name (original) |
+| `dhcraft_logo_invert+text-horizontal` | SVG | Logo with company name (horizontal layout) |
+| `dhcraft_logo_invert+text-vertical` | SVG | Logo with company name (vertical layout) |
 | `dhcraft_stempel` | PDF | Company stamp |
 | `exc` | SVG, PNG | Exclamation mark / secondary mark |
 | `exc-notext` | PNG | Secondary mark without text |
 | `ex-favi` | PNG | Favicon |
-| `font_inter_h/v` | SVG | Inter font specimen (horizontal/vertical) |
-| `font_plex_h/v` | SVG | IBM Plex font specimen (horizontal/vertical) |
-| `font_space_h/v` | SVG | Space font specimen (horizontal/vertical) |
 
 ## Usage
 
