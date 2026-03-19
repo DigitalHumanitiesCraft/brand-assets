@@ -9,6 +9,9 @@ desktop.ini
 .vscode/
 .idea/
 
+# Claude Code
+.claude/settings.local.json
+
 # Temporary files
 *.tmp
 *.bak
