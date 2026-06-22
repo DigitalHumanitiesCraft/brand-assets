@@ -6,12 +6,14 @@
   "description": "Reproducible asset tooling for DHCraft brand assets",
   "scripts": {
     "render-png": "node render-png.mjs",
-    "derive-raster": "node derive-raster.mjs"
+    "derive-raster": "node derive-raster.mjs",
+    "make-icons": "node make-icons.mjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0"
   },
   "dependencies": {
+    "png-to-ico": "^3.0.1",
     "sharp": "^0.35.2"
   }
 }
