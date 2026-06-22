@@ -5,9 +5,13 @@
   "type": "module",
   "description": "Reproducible asset tooling for DHCraft brand assets",
   "scripts": {
-    "render-png": "node render-png.mjs"
+    "render-png": "node render-png.mjs",
+    "derive-raster": "node derive-raster.mjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0"
+  },
+  "dependencies": {
+    "sharp": "^0.35.2"
   }
 }
