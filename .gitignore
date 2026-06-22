@@ -15,3 +15,6 @@ desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+# Node / tooling
+scripts/node_modules/
