@@ -106,12 +106,15 @@ from Google Fonts. Code stays in a monospace font such as Consolas.
 
 ## Slides
 
-- Background paper, text ink, titles in Sora, body text in Instrument Sans.
-- Purple marks the one thing a slide emphasises: a defined term, a key figure,
-  the didactic token in a code example. Not more than one emphasis per element.
+- Background pure white (`#ffffff`), titles and text black (`#000000`), no grey
+  text. Titles in Sora, body text in Instrument Sans.
+- The brand hues colour sublines, categories and the didactic token in a code
+  example; text itself stays black. Not more than one emphasis per element.
+- Code boxes white with a thin light-purple border; rules and connectors thin,
+  in a brand hue, never grey.
 - The watercolor logo with text stands on the title slide; content slides
   carry no logo.
-- Charts on slides: one series in purple, text in ink, background paper.
+- Charts on slides: one series in purple, text black, background white.
   Several series take further hues of the palette only after a colour-vision
   check.
 
