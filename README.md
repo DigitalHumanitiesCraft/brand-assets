@@ -107,7 +107,7 @@ from Google Fonts. Code stays in a monospace font such as Consolas.
 ## Slides
 
 - Background pure white (`#ffffff`), titles and text black (`#000000`), no grey
-  text. Titles in Sora, body text in Instrument Sans.
+  text. Titles and headings in Sora, always bold; body text in Instrument Sans.
 - The brand hues colour sublines, categories and the didactic token in a code
   example; text itself stays black. Not more than one emphasis per element.
 - Code boxes white with a thin light-purple border; rules and connectors thin,
