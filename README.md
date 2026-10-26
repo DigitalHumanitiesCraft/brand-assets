@@ -79,6 +79,42 @@ node make-icons.mjs          # square avatar + favicon set (from the mark)
   mid-toned backgrounds (the title text is dark).
 - Do not alter colors, proportions, or other visual properties of the logos.
 
+## Colours and fonts
+
+The palette and fonts of dhcraft.org (`dhcraft-site/src/styles/global.css`),
+whose hues follow the watercolor logo. Websites, slides and figures use them.
+
+| Token | Hex | Use |
+|-------|-----|-----|
+| paper | `#fdfcf8` | background |
+| ink | `#1e2749` | text |
+| ink-deep | `#161d38` | dark surfaces |
+| purple | `#8a4fa3` | accent, marks of a single-series chart |
+| purple-deep | `#5b3a78` | emphasised text, links |
+| pink | `#c06bb0` | secondary accent |
+| green | `#5c9e4a` | further hue of the logo |
+| lime | `#a9c53d` | further hue of the logo |
+| orange | `#e39a3b` | further hue of the logo |
+| blue | `#85aede` | further hue of the logo |
+| blue-deep | `#4a7ab8` | further hue of the logo |
+
+The further hues serve categorical charts and illustrations, and a chart uses
+them only after a colour-vision check of the chosen set.
+
+Fonts: **Sora** for headings and titles, **Instrument Sans** for text, both
+from Google Fonts. Code stays in a monospace font such as Consolas.
+
+## Slides
+
+- Background paper, text ink, titles in Sora, body text in Instrument Sans.
+- Purple marks the one thing a slide emphasises: a defined term, a key figure,
+  the didactic token in a code example. Not more than one emphasis per element.
+- The watercolor logo with text stands on the title slide; content slides
+  carry no logo.
+- Charts on slides: one series in purple, text in ink, background paper.
+  Several series take further hues of the palette only after a colour-vision
+  check.
+
 ## License
 
 All rights reserved. These assets are proprietary to Digital Humanities Craft and may not be used without permission.
