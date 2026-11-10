@@ -120,4 +120,4 @@ from Google Fonts. Code stays in a monospace font such as Consolas.
 
 ## License
 
-All rights reserved. These assets are proprietary to Digital Humanities Craft and may not be used without permission.
+The logos and all other brand assets are proprietary to Digital Humanities Craft, all rights reserved, and may not be used without permission. The folder `web/` is the exception: its stylesheets, script and documents are under the MIT License, the fonts under the SIL Open Font License, and the mark it contains stays proprietary, as `web/LICENSE.md` sets out.
