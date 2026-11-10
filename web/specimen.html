@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DHCraft web building blocks</title>
+  <link rel="icon" href="../favicon/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="dhcraft-tokens.css">
+  <link rel="stylesheet" href="dhcraft-components.css">
+  <script type="module" src="dhcraft-copy.js"></script>
+</head>
+<body>
+  <a class="dh-skip" href="#main">Skip to content</a>
+  <header class="dh-head">
+    <a class="dh-brand" href="specimen.html"><img src="dhcraft-mark-watercolor-128.png" alt="" width="112" height="128">Promptotyping</a>
+    <nav class="dh-nav" aria-label="Site">
+      <ul>
+        <li><a href="#main" aria-current="page">Method</a></li>
+        <li><a href="#cards">Documents</a></li>
+        <li><a href="#code">Prompts</a></li>
+        <li><a href="#figure">Process diagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="dh-page">
+    <h1>DHCraft web building blocks</h1>
+    <p class="dh-prose">This page shows the shared tokens and building blocks in one place, so a site that adopts them can be compared against it. Text runs at the reading width, while cards, code and diagrams use the page width. A link inside prose stays underlined, as <a href="design.md">the design document</a> shows.</p>
+    <p><a class="dh-btn dh-btn--primary" href="#cards">Read the method</a> <a class="dh-btn" href="#code">Open the prompts</a></p>
+
+    <h2 id="cards">Documents</h2>
+    <div class="dh-cards">
+      <article class="dh-card"><h3><a href="#cards">Requirements</a></h3><p>What the artefact must do and for whom, kept as a short list the agent reads first.</p></article>
+      <article class="dh-card"><h3><a href="#cards">Data</a></h3><p>The source material with its provenance and the fields the interface shows.</p></article>
+      <article class="dh-card"><h3><a href="#cards">Design</a></h3><p>Colours, type and interaction rules, together with the reasons behind them.</p></article>
+    </div>
+
+    <h2 id="code">Prompts</h2>
+    <figure class="dh-code">
+      <figcaption>Start prompt for a new session</figcaption>
+      <pre><code>Read knowledge/INDEX.md and the documents it links.
+Then state the requirement, the acceptance criteria and the open questions.</code></pre>
+    </figure>
+
+    <h2 id="figure">Process diagram</h2>
+    <figure class="dh-figure">
+      <div class="dh-figure__canvas">
+        <svg viewBox="0 0 540 90" width="540" height="90" role="img" aria-labelledby="fig-title">
+          <title id="fig-title">Four steps from preparation to distillation</title>
+          <g font-family="Instrument Sans, sans-serif" font-size="15" text-anchor="middle">
+            <rect x="4" y="25" width="110" height="40" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="59" y="50" fill="currentColor">Preparation</text>
+            <rect x="139" y="25" width="110" height="40" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="194" y="50" fill="currentColor">Exploration</text>
+            <rect x="274" y="25" width="110" height="40" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="329" y="50" fill="currentColor">Distillation</text>
+            <rect x="406" y="25" width="128" height="40" rx="8" fill="none" stroke="var(--dh-accent)" stroke-width="2"/><text x="470" y="50" fill="currentColor">Implementation</text>
+            <path d="M114 45h22M249 45h22M384 45h22" stroke="currentColor" stroke-width="1.5"/>
+          </g>
+        </svg>
+      </div>
+      <figcaption>Each step reads the documents of the step before it. The accent marks the step a reader is currently in.</figcaption>
+    </figure>
+  </main>
+
+  <footer class="dh-foot">
+    <p>Published by <a href="https://dhcraft.org">Digital Humanities Craft</a></p>
+    <p>Text CC BY 4.0, code MIT, DHCraft logo excluded</p>
+    <p><a href="https://github.com/DigitalHumanitiesCraft/brand-assets">Source on GitHub</a></p>
+  </footer>
+</body>
+</html>
