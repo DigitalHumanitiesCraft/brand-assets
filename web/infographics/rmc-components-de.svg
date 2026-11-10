@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 734 810" width="734" height="810" role="img" aria-labelledby="t d" lang="de">
+  <title id="t">Komponenten von Research Mission Control</title>
+  <desc id="d">Oben stehen die Forschenden. Sie geben Research Coordination die Richtung vor und nehmen die Ergebnisse ab. Research Coordination ist eine feste Session. Sie verteilt Arbeit an wenige Projekt-Sessions für lange Arbeit an einem Projekt und an Subagenten mit einem Auftrag und frischem Kontext. Alle Sessions lesen aus den Dateien unter Git und schreiben dorthin zurück, denn ein Large Language Model behält zwischen zwei Sessions nichts. Research Coordination prüft Ergebnisse an den Dateien und committet. Die Dateien unter Git bestehen aus dem Vault mit Wissen, Regeln und Stand über Projekte hinweg und den Projekt-Repositories mit dem Projektwissen im Ordner knowledge. Mission Control ist eine lokale Seite, die die Dateien liest, den Forschenden den Stand zeigt und nie schreibt.</desc>
+  <defs>
+    <marker id="ap" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#8a4fa3"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#4a7ab8"/>
+    </marker>
+    <g id="sheet">
+      <path d="M0,0 H16 L24,8 V32 H0 Z" fill="#ffffff" stroke="#1e2749" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M16,0 V8 H24" fill="none" stroke="#1e2749" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M5,15 H19 M5,21 H19 M5,27 H14" stroke="#576078" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <style>
+    @font-face { font-family: "Sora"; src: url("../fonts/sora-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+    @font-face { font-family: "Sora"; src: url("../fonts/sora-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+    @font-face { font-family: "Instrument Sans"; src: url("../fonts/instrument-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+    @font-face { font-family: "Instrument Sans"; src: url("../fonts/instrument-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+    text { font-family: "Instrument Sans", system-ui, "Segoe UI", sans-serif; fill: #1e2749; }
+    .h { font-family: "Sora", "Instrument Sans", system-ui, sans-serif; font-weight: 700; }
+    .h6 { font-family: "Sora", "Instrument Sans", system-ui, sans-serif; font-weight: 600; }
+    .soft { fill: #576078; }
+    .rel { font-weight: 600; }
+    .mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; }
+    .mid { text-anchor: middle; }
+    .end { text-anchor: end; }
+    .caps { font-weight: 600; letter-spacing: 2px; fill: #576078; }
+    .box { fill: #ffffff; stroke: #1e2749; stroke-width: 1.8; }
+    .flow { fill: none; stroke: #8a4fa3; stroke-width: 2.5; stroke-linejoin: round; }
+    .io { fill: none; stroke: #4a7ab8; stroke-width: 2.5; stroke-linejoin: round; }
+  </style>
+  <rect width="734" height="810" fill="#fdfcf8"/>
+
+  <!-- Researchers -->
+  <circle cx="270" cy="48" r="15" fill="#1e2749"/>
+  <path d="M244,98 C244,76 254,68 270,68 C286,68 296,76 296,98 Z" fill="#1e2749"/>
+  <text class="h mid" x="270" y="134" font-size="26">Forschende</text>
+  <text class="soft mid" x="270" y="160" font-size="17">entscheiden und nehmen ab</text>
+
+  <!-- Mission Control, read-only view -->
+  <rect class="box" x="512" y="34" width="186" height="112" rx="12"/>
+  <path d="M512,58 H698" stroke="#1e2749" stroke-width="1.5"/>
+  <circle cx="527" cy="46" r="3.5" fill="#576078"/><circle cx="539" cy="46" r="3.5" fill="#576078"/><circle cx="551" cy="46" r="3.5" fill="#576078"/>
+  <text class="h6 mid" x="605" y="91" font-size="19">Mission Control</text>
+  <text class="soft mid" x="605" y="115" font-size="15">lokale Seite</text>
+  <text class="soft mid" x="605" y="134" font-size="15">schreibt nie</text>
+  <path class="io" d="M508,76 H312" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+  <text class="rel mid" x="410" y="64" font-size="17">zeigt den Stand</text>
+
+  <!-- Sessions frame -->
+  <rect x="36" y="188" width="464" height="364" rx="14" fill="none" stroke="#576078" stroke-width="1.3" stroke-dasharray="7 6"/>
+
+  <!-- Researchers and Research Coordination -->
+  <path class="flow" d="M248,170 V230" marker-end="url(#ap)"/>
+  <text class="rel end" x="236" y="214" font-size="17">Richtung</text>
+  <path class="flow" d="M292,232 V172" marker-end="url(#ap)"/>
+  <text class="rel" x="304" y="214" font-size="17">zur Abnahme</text>
+
+  <rect x="80" y="236" width="380" height="90" rx="12" fill="#ffffff" stroke="#8a4fa3" stroke-width="3"/>
+  <text class="h mid" x="270" y="274" font-size="24">Research Coordination</text>
+  <text class="soft mid" x="270" y="304" font-size="17">eine feste Session</text>
+
+  <!-- assign -->
+  <path class="flow" d="M270,327 V362"/>
+  <path class="flow" d="M270,362 H162 Q150,362 150,374 V400" marker-end="url(#ap)"/>
+  <path class="flow" d="M270,362 H362 Q374,362 374,374 V400" marker-end="url(#ap)"/>
+  <text class="rel" x="282" y="350" font-size="17">verteilen</text>
+
+  <!-- Project sessions and subagents -->
+  <rect class="box" x="68" y="416" width="188" height="96" rx="12"/>
+  <rect class="box" x="62" y="410" width="188" height="96" rx="12"/>
+  <rect class="box" x="56" y="404" width="188" height="96" rx="12"/>
+  <text class="h6 mid" x="150" y="438" font-size="19">Projekt-Sessions</text>
+  <text class="soft mid" x="150" y="462" font-size="16">lange Arbeit</text>
+  <text class="soft mid" x="150" y="482" font-size="16">an einem Projekt</text>
+
+  <rect class="box" x="292" y="416" width="188" height="96" rx="12"/>
+  <rect class="box" x="286" y="410" width="188" height="96" rx="12"/>
+  <rect class="box" x="280" y="404" width="188" height="96" rx="12"/>
+  <text class="h6 mid" x="374" y="438" font-size="19">Subagenten</text>
+  <text class="soft mid" x="374" y="462" font-size="16">ein Auftrag,</text>
+  <text class="soft mid" x="374" y="482" font-size="16">frischer Kontext</text>
+
+  <text class="caps" x="56" y="539" font-size="13">SESSIONS</text>
+  <text class="soft" x="150" y="539" font-size="15">Ein LLM behält zwischen zwei Sessions nichts.</text>
+
+  <!-- read and write back -->
+  <path class="io" d="M300,556 V636" marker-end="url(#ab)"/>
+  <text class="rel end" x="288" y="602" font-size="17">zurückschreiben</text>
+  <path class="io" d="M360,636 V556" marker-end="url(#ab)"/>
+  <text class="rel" x="372" y="602" font-size="17">lesen</text>
+
+  <!-- check and commit -->
+  <path class="io" d="M461,281 H528 Q540,281 540,293 V636" marker-end="url(#ab)"/>
+  <text class="rel" x="552" y="468" font-size="17">prüfen,</text>
+  <text class="rel" x="552" y="489" font-size="17">committen</text>
+
+  <!-- Mission Control reads -->
+  <path class="io" d="M672,640 V150" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+  <text class="rel end" x="660" y="306" font-size="17">liest</text>
+
+  <!-- Files under Git -->
+  <rect x="36" y="640" width="662" height="146" rx="14" fill="#f6f4ec" stroke="#1e2749" stroke-width="1.8"/>
+  <text class="h" x="56" y="670" font-size="20">Dateien unter Git</text>
+
+  <rect class="box" x="56" y="682" width="296" height="88" rx="10" stroke-width="1.5"/>
+  <text class="h6" x="74" y="710" font-size="19">Vault</text>
+  <text x="74" y="734" font-size="16">Wissen, Regeln und Stand</text>
+  <text x="74" y="755" font-size="16">über Projekte hinweg</text>
+  <use href="#sheet" x="306" y="696"/>
+
+  <rect class="box" x="372" y="682" width="306" height="88" rx="10" stroke-width="1.5"/>
+  <text class="h6" x="390" y="710" font-size="19">Projekt-Repositories</text>
+  <text x="390" y="734" font-size="16">Projektwissen im Ordner</text>
+  <text class="mono" x="390" y="755" font-size="15">knowledge/</text>
+  <use href="#sheet" x="634" y="696"/>
+</svg>

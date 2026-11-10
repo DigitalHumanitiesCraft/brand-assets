@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en">
+  <title id="t">Components of Research Mission Control</title>
+  <desc id="d">Researchers set the direction for Research Coordination and accept its results. Research Coordination is one permanent session. It assigns work to a few project sessions, each for long work on one project, and to subagents, each with one bounded task and a fresh context, which report back briefly. Every session reads from files under Git and writes back to them, because a Large Language Model keeps nothing from one session to the next. Research Coordination checks results against the files and commits. The files under Git are the vault, with knowledge, rules and state across projects, and the project repositories, with each project's knowledge in its knowledge folder. Mission Control is a local page that reads the files, shows the researchers the state and never writes.</desc>
+  <defs>
+    <marker id="ap" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#8a4fa3"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#4a7ab8"/>
+    </marker>
+    <g id="sheet">
+      <path d="M0,0 H16 L24,8 V32 H0 Z" fill="#ffffff" stroke="#1e2749" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M16,0 V8 H24" fill="none" stroke="#1e2749" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M5,15 H19 M5,21 H19 M5,27 H14" stroke="#576078" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <style>
+    @font-face { font-family: "Sora"; src: url("../fonts/sora-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+    @font-face { font-family: "Sora"; src: url("../fonts/sora-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+    @font-face { font-family: "Instrument Sans"; src: url("../fonts/instrument-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+    @font-face { font-family: "Instrument Sans"; src: url("../fonts/instrument-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+    text { font-family: "Instrument Sans", system-ui, "Segoe UI", sans-serif; fill: #1e2749; }
+    .h { font-family: "Sora", "Instrument Sans", system-ui, sans-serif; font-weight: 700; }
+    .h6 { font-family: "Sora", "Instrument Sans", system-ui, sans-serif; font-weight: 600; }
+    .soft { fill: #576078; }
+    .rel { font-weight: 600; }
+    .mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; }
+    .mid { text-anchor: middle; }
+    .end { text-anchor: end; }
+    .caps { font-weight: 600; letter-spacing: 2px; fill: #576078; }
+    .box { fill: #ffffff; stroke: #1e2749; stroke-width: 1.8; }
+    .flow { fill: none; stroke: #8a4fa3; stroke-width: 2.5; stroke-linejoin: round; }
+    .io { fill: none; stroke: #4a7ab8; stroke-width: 2.5; stroke-linejoin: round; }
+  </style>
+  <rect width="1600" height="900" fill="#fdfcf8"/>
+
+  <!-- Title column -->
+  <text class="h" x="60" y="140" font-size="48">Research</text>
+  <text class="h" x="60" y="198" font-size="48">Mission Control</text>
+  <text x="60" y="270" font-size="22">Researchers and agent sessions divide the</text>
+  <text x="60" y="302" font-size="22">work. A Large Language Model keeps</text>
+  <text x="60" y="334" font-size="22">nothing from one session to the next,</text>
+  <text x="60" y="366" font-size="22">so every session reads its context from</text>
+  <text x="60" y="398" font-size="22">files under Git and writes its results</text>
+  <text x="60" y="430" font-size="22">back there.</text>
+
+  <text class="caps" x="60" y="530" font-size="14">ARROWS</text>
+  <path class="flow" d="M60,564 H120" marker-end="url(#ap)"/>
+  <text x="140" y="571" font-size="19">work, decisions and acceptance</text>
+  <path class="io" d="M60,606 H120" marker-end="url(#ab)"/>
+  <text x="140" y="613" font-size="19">reading and writing files</text>
+  <path class="io" d="M60,648 H120" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+  <text x="140" y="655" font-size="19">reading only</text>
+
+  <g transform="translate(620,40)">
+    <!-- Researchers -->
+    <circle cx="320" cy="48" r="15" fill="#1e2749"/>
+    <path d="M294,98 C294,76 304,68 320,68 C336,68 346,76 346,98 Z" fill="#1e2749"/>
+    <text class="h mid" x="320" y="134" font-size="28">Researchers</text>
+    <text class="soft mid" x="320" y="162" font-size="18">set the direction, decide, accept results</text>
+
+    <!-- Mission Control, read-only view -->
+    <rect class="box" x="690" y="34" width="230" height="112" rx="12"/>
+    <path d="M690,58 H920" stroke="#1e2749" stroke-width="1.5"/>
+    <circle cx="705" cy="46" r="3.5" fill="#576078"/><circle cx="717" cy="46" r="3.5" fill="#576078"/><circle cx="729" cy="46" r="3.5" fill="#576078"/>
+    <text class="h6 mid" x="805" y="91" font-size="21">Mission Control</text>
+    <text class="soft mid" x="805" y="115" font-size="16">local page</text>
+    <text class="soft mid" x="805" y="134" font-size="16">never writes</text>
+    <path class="io" d="M686,76 H366" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+    <text class="rel mid" x="526" y="64" font-size="18">shows the state</text>
+
+    <!-- Sessions frame -->
+    <rect x="0" y="188" width="640" height="364" rx="14" fill="none" stroke="#576078" stroke-width="1.3" stroke-dasharray="7 6"/>
+
+    <!-- Researchers and Research Coordination -->
+    <path class="flow" d="M298,172 V230" marker-end="url(#ap)"/>
+    <text class="rel end" x="286" y="214" font-size="18">direction</text>
+    <path class="flow" d="M342,232 V174" marker-end="url(#ap)"/>
+    <text class="rel" x="354" y="214" font-size="18">for acceptance</text>
+
+    <rect x="60" y="236" width="520" height="90" rx="12" fill="#ffffff" stroke="#8a4fa3" stroke-width="3"/>
+    <text class="h mid" x="320" y="274" font-size="26">Research Coordination</text>
+    <text class="soft mid" x="320" y="305" font-size="18">one permanent session</text>
+
+    <!-- assign -->
+    <path class="flow" d="M320,327 V362"/>
+    <path class="flow" d="M320,362 H171 Q159,362 159,374 V400" marker-end="url(#ap)"/>
+    <path class="flow" d="M320,362 H457 Q469,362 469,374 V400" marker-end="url(#ap)"/>
+    <text class="rel" x="332" y="350" font-size="18">assign</text>
+
+    <!-- Project sessions and subagents -->
+    <rect class="box" x="36" y="416" width="270" height="96" rx="12"/>
+    <rect class="box" x="30" y="410" width="270" height="96" rx="12"/>
+    <rect class="box" x="24" y="404" width="270" height="96" rx="12"/>
+    <text class="h6 mid" x="159" y="438" font-size="20">Project sessions</text>
+    <text class="soft mid" x="159" y="462" font-size="17">a few, each for long work</text>
+    <text class="soft mid" x="159" y="483" font-size="17">on one project</text>
+
+    <rect class="box" x="346" y="416" width="270" height="96" rx="12"/>
+    <rect class="box" x="340" y="410" width="270" height="96" rx="12"/>
+    <rect class="box" x="334" y="404" width="270" height="96" rx="12"/>
+    <text class="h6 mid" x="469" y="438" font-size="20">Subagents</text>
+    <text class="soft mid" x="469" y="462" font-size="17">one bounded task,</text>
+    <text class="soft mid" x="469" y="483" font-size="17">fresh context, short report</text>
+
+    <text class="caps" x="24" y="539" font-size="13">SESSIONS</text>
+    <text class="soft" x="118" y="539" font-size="16">An LLM keeps nothing from one session to the next.</text>
+
+    <!-- read and write back -->
+    <path class="io" d="M360,556 V636" marker-end="url(#ab)"/>
+    <text class="rel end" x="348" y="602" font-size="18">write back</text>
+    <path class="io" d="M420,636 V556" marker-end="url(#ab)"/>
+    <text class="rel" x="432" y="602" font-size="18">read</text>
+
+    <!-- check and commit -->
+    <path class="io" d="M581,281 H690 Q702,281 702,293 V636" marker-end="url(#ab)"/>
+    <text class="rel" x="714" y="468" font-size="18">check results,</text>
+    <text class="rel" x="714" y="490" font-size="18">commit</text>
+
+    <!-- Mission Control reads -->
+    <path class="io" d="M884,640 V150" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+    <text class="rel end" x="872" y="306" font-size="18">reads</text>
+
+    <!-- Files under Git -->
+    <rect x="0" y="640" width="920" height="146" rx="14" fill="#f6f4ec" stroke="#1e2749" stroke-width="1.8"/>
+    <text class="h" x="20" y="670" font-size="21">Files under Git</text>
+
+    <rect class="box" x="20" y="682" width="430" height="88" rx="10" stroke-width="1.5"/>
+    <text class="h6" x="38" y="710" font-size="20">Vault</text>
+    <text x="38" y="734" font-size="17">knowledge, rules and state</text>
+    <text x="38" y="756" font-size="17">across projects</text>
+    <use href="#sheet" x="404" y="696"/>
+
+    <rect class="box" x="470" y="682" width="430" height="88" rx="10" stroke-width="1.5"/>
+    <text class="h6" x="488" y="710" font-size="20">Project repositories</text>
+    <text x="488" y="734" font-size="17">each project's knowledge in the folder</text>
+    <text class="mono" x="488" y="756" font-size="16">knowledge/</text>
+    <use href="#sheet" x="854" y="696"/>
+  </g>
+</svg>
