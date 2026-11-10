@@ -123,6 +123,20 @@ These rules apply to every visible string, including headings, navigation, butto
 - Building blocks sit in a cascade layer so that adopting sites keep control of every detail without specificity overrides.
 - The set holds only what all three sites need. Hero sections, graphs, glossaries, side panels and status systems remain project components.
 
+## Page structure of a method site
+
+Decided by the owner on 2026-11-10 for the method sites Promptotyping, Second Brain Vault, Grounded Vault and Research Mission Control. Each site is one static page that a reader takes in within two minutes, with the same seven parts in the same order, so that someone who knows one site finds their way on the others. A site adds a further page only for a tool of its own, such as a demo or an explorer, and links it from the page.
+
+1. Title, the name of the method, with an abstract of two or three sentences that says what it is and for whom.
+2. Main figure, one diagram from which the core terms, the concepts and the process can all be read. Every term the page uses later appears in it, and the page refers back to it instead of introducing a second diagram for the same thing.
+3. What it is and where it comes from, a short description with the origin of the method and the publication to cite.
+4. Formal description, the definitions of the terms in the figure in glossary form, each in one or two sentences, with a link to the full specification in the repository.
+5. Reuse, how to take the repository and start working, as a short numbered list with copyable commands and prompts.
+6. Example, one didactic demo on invented or public material that a reader can run through, with the prompts in the order in which they are used and what each one yields.
+7. Limits, licence and citation, what the method does not establish, under which terms it may be reused and how to cite it.
+
+Text stays short. A part has a heading, at most two sentences of prose and then a figure, a short list or a copyable block. What the README or the specification carries better is linked and not repeated.
+
 ## Licence
 
 The CSS and JavaScript files of this folder are offered to the DHCraft sites under the MIT licence once the repository records that decision, the fonts are under the SIL Open Font License 1.1, and the logo files remain under the repository's all-rights-reserved terms. Until then the repository licence applies to the whole folder.
