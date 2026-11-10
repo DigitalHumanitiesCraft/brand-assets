@@ -130,7 +130,7 @@ Decided by the owner on 2026-11-10 for the method sites Promptotyping, Second Br
 1. Title, the name of the method, with an abstract of two or three sentences that says what it is and for whom.
 2. Main figure, one diagram from which the core terms, the concepts and the process can all be read. Every term the page uses later appears in it, and the page refers back to it instead of introducing a second diagram for the same thing.
 3. What it is and where it comes from, a short description with the origin of the method and the publication to cite.
-4. Formal description, the definitions of the terms in the figure in glossary form, each in one or two sentences, with a link to the full specification in the repository.
+4. Formal description, the terms of the figure defined in running prose directly under it, each in one or two sentences, with links to the full specification in the repository inside the sentences.
 5. Reuse, how to take the repository and start working, as a short numbered list with copyable commands and prompts.
 6. Example, one didactic demo on invented or public material that a reader can run through, with the prompts in the order in which they are used and what each one yields.
 7. Limits, licence and citation, what the method does not establish, under which terms it may be reused and how to cite it.
@@ -144,6 +144,9 @@ The Promptotyping start page is the reference for layout, type and overall look.
 - Main figure first. The main figure stands at the very top, directly under title and abstract, as a self-contained SVG that can also be used in a paper and on slides. No heading above it and no caption block below it.
 - Prose under the figure. The text that explains the figure starts directly under it as running prose in two or three short paragraphs. It defines the terms of the figure in sentences, with links to the specification, the glossary and the cited publication inside the sentences. No definition list with several tiers per term and no separate reference line.
 - No button row beside the abstract. Reuse, example and specification are reached by scrolling and from the header.
+- Entries with at most three levels. A recurring entry, such as a step with a prompt, a template or a case, has at most three levels of text, and so does everything that stands before the first entry of a page. Links inside an entry share one form.
+- Copy fields. A prompt or command stands in a field with a dashed border, slightly indented from the surrounding text and set in the monospace face. Copying is an icon inside the field with an accessible name and a visible confirmation, without a word beside it.
+- One page. A method site is one page whose header navigation jumps to its parts. A further page exists only for a tool or a reading purpose of its own that the page does not serve.
 - Downloads set apart. Files to take away, such as templates or a skill, stand in their own visually separate block with one clear download control per file and one control that downloads all of them as an archive. Explanatory prose stays outside this block.
 
 Text stays short. A part has a heading, at most two sentences of prose and then a figure, a short list or a copyable block. What the README or the specification carries better is linked and not repeated.
