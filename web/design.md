@@ -135,6 +135,17 @@ Decided by the owner on 2026-11-10 for the method sites Promptotyping, Second Br
 6. Example, one didactic demo on invented or public material that a reader can run through, with the prompts in the order in which they are used and what each one yields.
 7. Limits, licence and citation, what the method does not establish, under which terms it may be reused and how to cite it.
 
+### Decisions of 2026-11-10 after the owner's review of the first sites
+
+The Promptotyping start page is the reference for layout, type and overall look. The other method sites follow it.
+
+- Colour. The four hues of the mark, green, blue, purple and orange, are the shared scheme of all sites and figures. Purple stays the accent for actions. Green, blue and orange mark categories in figures and lists, each with a text label, and always in the same role across the sites once a role is assigned.
+- Light by default. A site opens in the light scheme whatever the system setting, and the dark scheme is reached only through the toggle in the header. The owner rejected the dark ground of the first Second Brain page.
+- Main figure first. The main figure stands at the very top, directly under title and abstract, as a self-contained SVG that can also be used in a paper and on slides. No heading above it and no caption block below it.
+- Prose under the figure. The text that explains the figure starts directly under it as running prose in two or three short paragraphs. It defines the terms of the figure in sentences, with links to the specification, the glossary and the cited publication inside the sentences. No definition list with several tiers per term and no separate reference line.
+- No button row beside the abstract. Reuse, example and specification are reached by scrolling and from the header.
+- Downloads set apart. Files to take away, such as templates or a skill, stand in their own visually separate block with one clear download control per file and one control that downloads all of them as an archive. Explanatory prose stays outside this block.
+
 Text stays short. A part has a heading, at most two sentences of prose and then a figure, a short list or a copyable block. What the README or the specification carries better is linked and not repeated.
 
 ## Licence
