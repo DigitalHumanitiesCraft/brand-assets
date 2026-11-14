@@ -87,7 +87,8 @@ All building blocks live in `@layer dh`. An unlayered rule of a site therefore o
 |---|---|---|
 | `dh-head` | `header` with `a.dh-brand` and `nav.dh-nav > ul` | site header |
 | `dh-brand` | link with `img` (`dhcraft-mark-watercolor-128.png`, empty `alt`) and the site name as text | mark and name, linking to the site's start page |
-| `dh-foot` | `footer` with one `p` each for publisher, licence and source | site footer |
+| `dh-foot` | `footer` with a `div.dh-foot__frame` that holds `p.dh-foot__brand`, `nav.dh-foot__links` and `p.dh-foot__licence`. A footer with one `p` each for publisher, licence and source keeps its earlier light form | site footer |
+| `dh-icon`, `dh-icon-link` | inline `svg.dh-icon` drawn in lines, inside an `a.dh-icon-link` beside its word | icon with its label |
 | `dh-card`, `dh-cards` | `article.dh-card` in a `div.dh-cards` grid | self-contained objects with comparable siblings |
 | `dh-btn`, `dh-btn--primary` | `a` or `button` | actions; one primary action per view |
 | `dh-code` | `figure.dh-code` with optional `figcaption` and one `pre` | code and prompts, copy button added by script |
@@ -96,7 +97,7 @@ All building blocks live in `@layer dh`. An unlayered rule of a site therefore o
 
 The brand mark is the coloured watercolour variant of the DHCraft logo, here as a transparent raster of 128 px height derived from `png/dhcraft_logo_watercolor_transparent.png` by proportional scaling with premultiplied alpha. It stands at 2rem height and works on both schemes. The site name beside it is the name of the site, such as Promptotyping. The footer names Digital Humanities Craft and links to dhcraft.org. The favicon comes from `favicon/`.
 
-The footer carries three statements. The publisher reads Digital Humanities Craft with a link to https://dhcraft.org. The licence names the site's own terms, for these sites text under CC BY 4.0 and code under MIT, and notes that the DHCraft logo is excluded. The source links the public repository.
+The footer follows the one of dhcraft.org, a decision of the owner of 2026-11-14 taken on the Promptotyping site. It is a dark band over the full width whose content stands in the page frame, with the mark and the name of the site on the left, the links of the project with an icon each on the right and the licence in one quiet line below. The footer carries three statements. The publisher reads Digital Humanities Craft with a link to https://dhcraft.org. The licence names the site's own terms, for these sites text under CC BY 4.0 and code under MIT, and notes that the DHCraft logo is excluded. The source links the public repository.
 
 ## Interface language
 
