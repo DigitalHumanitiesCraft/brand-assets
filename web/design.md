@@ -75,7 +75,7 @@ The steps are fluid `clamp()` values from about 0.84 to 3.5 rem. Body text runs 
 - The header carries the brand and the navigation on a solid background. The current page has `aria-current` and an accent underline. On narrow screens the navigation takes its own line and scrolls sideways inside itself, never the page.
 - Links in prose are underlined. Links in navigation and lists are not underlined at rest and underline on hover and focus.
 - A card that is a link as a whole puts the link on its heading. The link stretches over the card, and the card shows the focus ring. A card with a heading link holds no second link.
-- The copy button appears only where the Clipboard API exists, in the row above its code block. After copying it reads Copied (Kopiert) for two seconds. A failure stays visible until the next attempt.
+- The copy button appears only where the Clipboard API exists, as an icon inside its field that carries its name for screen readers. After copying the icon is a tick for two seconds. A failure shows its words and stays visible until the next attempt.
 - A diagram wider than the screen scrolls inside its frame. An SVG diagram uses `currentColor` for lines and text, so it follows the scheme, and `--dh-accent` for the one element it emphasises.
 - Transitions are limited to colour changes of 0.15 s and are off under `prefers-reduced-motion`.
 
